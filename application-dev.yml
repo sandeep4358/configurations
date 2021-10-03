@@ -12,7 +12,12 @@ eureka:
   instance:
     hostname: localhost
     
-    
+micorservice
+  :inventory-service
+    :endpoints
+      :endpoint
+        :uri
+          - http://inventory-service/inventory/item/
       
       
      
