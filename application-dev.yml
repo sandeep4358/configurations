@@ -16,8 +16,7 @@ micorservice
   :inventory-service
     :endpoints
       :endpoint
-        :uri
-          - http://inventory-service/inventory/item/
+        :uri http://inventory-service/inventory/item/
       
       
      
