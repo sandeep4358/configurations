@@ -1,20 +1,6 @@
 
 server:
-  port: 9195
-
-spring:
-  application:
-    name: user_management_service
-  datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/testdb
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver    
-  jpa:
-    show-sql: true
-      
-    
-    
+  port: 9195   
 
 
 eureka:
